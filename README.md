@@ -29,6 +29,8 @@ Agora podemos ver parte da saída do resultado:
 
 Foram encontardas alterações no arquivo README
 
+![image](https://github.com/user-attachments/assets/7e2b2e7f-8845-4024-9598-5a2937011bed)
+
 ![image](https://github.com/user-attachments/assets/786c7fa5-fe55-4e46-9766-86738058a5bc)
 
 
