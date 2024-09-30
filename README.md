@@ -3,7 +3,7 @@ Um DataQuality utilizando a biblioteca do Pandas dentro do Python
 
 Por questões de  otimização, rodei o código no terminal ao invés do VS_Code (para meu pc não pegar fogo 🔥) 
 
-Comecei pela instalação do Pandas 💨:
+# Comecei pela instalação do Pandas 💨:
 
 ![image](https://github.com/user-attachments/assets/01f616b5-eae4-4f7c-8738-4c7b73865533)
 
@@ -20,13 +20,16 @@ Agora podemos ver parte da saída do resultado:
 
 ![image](https://github.com/user-attachments/assets/5ccb05d2-fbb7-4714-8b0d-eebcc31452ce)
 
-Também fiz um git clone, para importar meu repositório localmente:
+# Também fiz um git clone, para importar meu repositório localmente:
 
 ![image](https://github.com/user-attachments/assets/b59a9141-d4a0-4e84-87f4-663193234907)
 
 
-Vamos fazer um git pull:
+# Vamos fazer um git pull:
 
+Foram encontardas alterações no arquivo README
+
+![image](https://github.com/user-attachments/assets/786c7fa5-fe55-4e46-9766-86738058a5bc)
 
 
 
