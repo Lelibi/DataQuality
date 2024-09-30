@@ -20,11 +20,12 @@ Agora podemos ver parte da saída do resultado:
 
 ![image](https://github.com/user-attachments/assets/5ccb05d2-fbb7-4714-8b0d-eebcc31452ce)
 
+Também fiz um git clone, para importar meu repositório localmente:
+
+![image](https://github.com/user-attachments/assets/b59a9141-d4a0-4e84-87f4-663193234907)
 
 
-
-
-
+Vamos fazer um git pull:
 
 
 
