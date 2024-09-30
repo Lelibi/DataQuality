@@ -1,4 +1,6 @@
 import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 class DataQuality:
     def __init__(self, file_name):
@@ -56,11 +58,37 @@ class DataQuality:
         print(numeric_desc)
         return numeric_desc
 
+    def plot_categorical_distribution(self):
+        """Gera gráficos de distribuição para colunas categóricas."""
+        print("\n===== Gráficos de distribuição para colunas categóricas =====")
+        for col in self.categorical_columns:
+            plt.figure(figsize=(10, 6))
+            sns.countplot(x=self.df[col], palette='Set2')
+            plt.title(f'Distribuição da coluna categórica: {col}')
+            plt.xticks(rotation=45)
+            plt.tight_layout()
+            plt.show()
+
+    def plot_numeric_distribution(self):
+        """Gera gráficos de distribuição para colunas numéricas."""
+        print("\n===== Gráficos de distribuição para colunas numéricas =====")
+        for col in self.numeric_columns:
+            plt.figure(figsize=(10, 6))
+            sns.histplot(self.df[col], kde=True, color='blue')
+            plt.title(f'Distribuição da coluna numérica: {col}')
+            plt.tight_layout()
+            plt.show()
+
     def generate_report(self):
-        """Gera o relatório completo de contagem de nulos, únicos, value_counts e describe."""
+        """Gera o relatório completo de contagem de nulos, únicos, value_counts, describe e gráficos de distribuição."""
         print("\n===== Gerando Relatório de Qualidade de Dados =====")
         self.count_nulls()
         self.count_unique()
         self.value_counts()
         self.describe_numerics()
+        self.plot_categorical_distribution()
+        self.plot_numeric_distribution()
         print("\n===== Fim do Relatório =====")
+
+# Exemplo de uso
+# dq = DataQuality('seu_arquivo.csv')
