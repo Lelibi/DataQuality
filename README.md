@@ -1,5 +1,9 @@
 # DataQuality
 Um DataQuality utilizando a biblioteca do Pandas dentro do Python 
+# Histórico de Commits
+
+![image](https://github.com/user-attachments/assets/cf30c5c0-f266-47a9-80c4-3ce6039e7cff)
+
 
 Por questões de  otimização, rodei o código no terminal ao invés do VS_Code (para meu pc não pegar fogo 🔥) 
 
