@@ -10,6 +10,15 @@ Por questões de  otimização, rodei o código no terminal ao invés do VS_Code
 Confirmando a instalação: 
 ![image](https://github.com/user-attachments/assets/ed13c9af-c1ee-4499-8f20-1032a10ac02b)
 
+Também precisei instalar o Matplolibi e o Seaborn
+
+![image](https://github.com/user-attachments/assets/5a15666a-8857-4dcd-97f4-6213f42f16e2)
+
+Aqui um dos grpaficos exibidos no relatório:
+
+![image](https://github.com/user-attachments/assets/1d35cc88-4592-4c90-989b-db4aafa94f65)
+
+
 Agora é hora de chamar o módulo. No meu caso, o nome é "dataquality1" = nome do arquivo.py;
 
 Também chamei a classe DataQuality("arquivo.csv")
